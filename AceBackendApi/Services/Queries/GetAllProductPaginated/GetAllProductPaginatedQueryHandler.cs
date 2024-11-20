@@ -1,9 +1,9 @@
-﻿using AceBackend.Application.Queries.GetAllProduitsPaginated;
+﻿using AceBackend.Application.Queries.GetAllProductPaginated;
 using AceBackend.Models.Entities;
 using AceBackend.Repositories;
 using MediatR;
 
-namespace AceBackend.Services.Queries.GetAllProduitsPaginated
+namespace AceBackend.Services.Queries.GetAllProductPaginated
 {
     public class GetAllProductPaginatedQueryHandler : IRequestHandler<GetAllProductPaginatedQuery, IEnumerable<Product>>
     {

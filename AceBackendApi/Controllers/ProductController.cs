@@ -1,5 +1,5 @@
 ﻿using AceBackend.Application.Commands;
-using AceBackend.Application.Queries.GetAllProduitsPaginated;
+using AceBackend.Application.Queries.GetAllProductPaginated;
 using AceBackend.Application.Queries.GetProduit;
 using AceBackend.Models.Dto;
 using AceBackend.Models.Entities;
