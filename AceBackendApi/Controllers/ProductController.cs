@@ -21,7 +21,7 @@ namespace AceBackend.Controllers
 
         // GET: api/products?page=1&pageSize=10  TODO
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetAllProducts([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<IEnumerable<Product>>> GetAllProducts()
         {
 
             /*
