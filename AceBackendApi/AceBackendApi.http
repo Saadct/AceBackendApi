@@ -1,0 +1,6 @@
+@AceBackendApi_HostAddress = http://localhost:5064
+
+GET {{AceBackendApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
